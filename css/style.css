@@ -369,14 +369,17 @@ margin: 10px;
 }
 
 /* footer */
+footer{
+    background-color: rgb(83, 81, 81);
+    color: white;
+    height: 250px;
+}
 .footer-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgb(83, 81, 81);
-    color: white;
-    height: 300px;
+    
 }
 .footer-items{
     width: 23%;
@@ -439,4 +442,21 @@ margin-top: 10px;
 }
 .email:hover{
     background-color:#333;
+}
+
+.Copyrights{
+    margin-top: 5px;
+    padding: 10px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.footericons{ 
+
+}
+.ficon{
+  
 }
