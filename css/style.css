@@ -1,0 +1,442 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: rgb(83, 81, 81);
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+  
+}
+/*style for navber */
+.navber{
+    background-color: rgb(83, 81, 81);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+     
+}
+ .nav-logo img{
+     
+    height: 50px;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #333;
+    box-shadow:  -1px -1px 1px rgb(92, 81, 81),1px 1px 1px  rgb(28, 21, 21);
+    
+}
+
+.nav-items{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-right: 8px;
+}
+.nav-button ul{
+   display: flex;
+   list-style: none;
+   padding: 10px;
+   margin: 5px;
+   
+}
+.nav-button a:hover{
+    background-color: #333;
+    box-shadow: inset 1px 1px 1px  rgb(28, 21, 21), inset -1px -1px 1px  rgb(171, 149, 149);
+    color:chocolate ;
+}
+.nav-button a , i{
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    background-color: #333;
+    box-shadow:  -1px -1px 1px rgb(92, 81, 81),1px 1px 1px  rgb(28, 21, 21);
+}
+.nav-icon i:hover{ 
+    color:chocolate ;
+    background-color: #333;
+    box-shadow: inset 1px 1px 1px  rgb(28, 21, 21), inset -1px -1px 1px  rgb(171, 149, 149);
+} 
+/* navber end */
+/* top banar */
+.top-baner-container{
+    background-image: url(../images/img/homepage-bg-pattern.png);
+    background-color: rgb(238, 209, 155) ;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top-baner-container .content{
+    color: chocolate;
+    text-align: center;
+    padding: 10px;
+}
+
+/* top button */
+.top-button{
+    margin-top: 30px ;
+}
+.button.one{
+    margin-right: 30px;
+}
+.button.two{ margin-left: 30px;
+
+}
+/* all buttons */
+.button{
+    padding:10px;
+    font-size:15px; 
+    font-weight: bold;
+    color: wheat;
+    border: none;
+    background-color: wheat;
+    border-radius:10px; 
+    color: rgb(214, 116, 36);
+    box-shadow:  2px 3px 3px #333, inset -3px -3px 3px rgb(199, 150, 59);
+}
+.button:hover{
+    background-color: rgb(216, 193, 150);
+    box-shadow:  1px 1px 3px #333, inset -3px -3px 3px wheat;
+}
+
+/* our products */
+.products-container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 100%  ;
+
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+.products-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:100px 30px 50px 30px;
+}
+.products-header h1{
+    font-size: 50px;
+    color: chocolate;
+    
+}
+
+.products-header p{
+color: rgb(83, 81, 81);
+font-size: 20px;
+text-align: center;
+line-height:30px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28%;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 3px 3px 3px rgb(143, 138, 138), -1px -1px 3px rgb(226, 221, 221) ;
+}
+.product-img{
+width: 100%;
+}
+.product-detaiuls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-detaiuls h1{
+    font-size: 30px;
+    padding: 10px;
+
+}
+.strawberry{
+    color: rgb(233, 90, 90);
+}
+.Lemon{
+    color: rgb(197, 197, 41);
+}
+.Berry{
+    color: rgb(236, 71, 71);
+}
+
+
+.product-detaiuls p{
+    color: #333;
+    font-size: 20px;
+}
+.product-detaiuls h2{
+    font-size: 25px;
+}
+.product-button{
+    padding: 5px;
+    margin-top:20px;
+     box-shadow:  -1px -1px 1px white,1px 1px 1px rgb(192, 161, 161); 
+    border: 1px white solid;
+    font-size: 13px;
+    font-weight: bold;
+    color: chocolate;
+    margin-bottom: 10px;
+}
+.product-button:hover{
+    background-color: chocolate;
+    color: white;
+    box-shadow: inset 3px 3px 1px rgb(233, 130, 56),
+    inset -1px -1px 1px rgb(145, 112, 88);
+}
+/* Deal offers */
+.Deal{
+    margin-top: 200px;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.offer{
+    background-image: url(../images/img/Deal.jpg);
+    width:700px;
+    height: 350px;
+   
+}
+.for-circle{ background-color: rgb(255, 175, 117);
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    border-radius: 100%;
+    margin:10px 0px 0px 10px;
+
+
+}
+.offer-type{
+    height:100px;
+    width: 100px;
+    background-color: rgb(255, 150, 75);
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     
+}
+.offer-type h1{
+    font-size: 20px;
+    color: white;
+}
+.offer-type p{
+font-size: 18px;
+color: white;
+}
+.Deal-details{
+    width: 55%;
+}
+.deal-header{
+    color: chocolate;
+    text-align: center;
+    font-size: 40px;
+}
+.deal-header2{
+    text-align: center;
+    font-weight: 100;
+    padding: 10px;
+}
+.Deal-details p{
+    color: rgb(83, 81, 81);
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.dates{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+    
+}
+.date{ border: 5px solid chocolate;
+    height: 70px;
+    width: 80px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.date h1{
+    color: chocolate;
+    font-size: 30px;
+}
+.date h2{
+    font-size: 19px;
+    padding: 5px;
+}
+
+
+
+.container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    background-image:url(../images/img/homepage-bg-pattern.png);
+    background-color: wheat;
+}
+.support{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.support h2,p{
+    color: chocolate;
+    font-size: 40px;
+    padding: 5px;
+}
+.support p{
+    
+    font-size:20px
+}
+.icon{
+    height: 20px;
+    padding: 25px;
+    border: 4px dotted chocolate ;
+    border-radius: 100%;
+    margin: 10px;
+   
+}
+/* feedback */
+.feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-top: 100px;
+}
+.feedback-img{
+    border-radius: 100%;
+}
+.feedback h1{
+font-size: 35px;
+color: chocolate;
+margin: 10px;
+}
+.feedback p{
+    font-size: 22px;
+    text-align: center;
+    color:rgb(83, 81, 81) ;
+    margin: 10px;
+}
+.feedback span{
+    font-size: 90px;
+    font-weight: bold;
+}
+/* feedback end */
+/* company-logos */
+.company-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo{
+    margin: 50px;
+}
+
+/* footer */
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 81, 81);
+    color: white;
+    height: 300px;
+}
+.footer-items{
+    width: 23%;
+}
+.About{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.item-header{
+    width: 200px;
+    color: chocolate;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.footer-items p{
+    font-size: 15px;
+    color: aliceblue;
+}
+.Touch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Touch span{
+    padding: 6px;
+}
+.Pages{
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+
+}
+.Pages ul li{
+    padding:2px;
+}
+.Pages ul li a:hover{
+    color: chocolate;
+   
+}
+.Pages ul li a{
+     text-decoration: none;
+     color:  white;
+}
+.Subscribe{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.email{
+text-align: start;
+width: 200px;
+height: 40px;
+background-color:rgb(83, 81, 81)  ;
+margin-top: 10px;
+}
+.email:hover{
+    background-color:#333;
+}
